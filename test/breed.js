@@ -42,7 +42,7 @@ describe('Breed', () => {
 
 	describe('#getRandomImageUrl', () => {
 		it('should return a single random image URL from all the possible URLs', (done) => {
-			let scope = nock(domain).get('/api/breed/image/random').reply(200, { message: '' })
+			let scope = nock(domain).get('/api/breeds/image/random').reply(200, { message: '' })
 			Breed.getRandomImageUrl((err, url) => {
 				url.should.be.a('string')
 				done()
