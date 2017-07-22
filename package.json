@@ -1,0 +1,33 @@
+{
+  "name": "dog-ceo",
+  "version": "0.1.0",
+  "description": "Wrapper for dog.ceo/dog-api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aehmlo/node-dog-ceo.git"
+  },
+  "keywords": [
+    "dog",
+    "dogs",
+    "dog-ceo",
+    "ceo"
+  ],
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aehmlo/node-dog-ceo/issues"
+  },
+  "homepage": "https://github.com/aehmlo/node-dog-ceo#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "nock": "^9.0.14"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
